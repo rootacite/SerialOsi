@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="F411Oscilloscope"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F411Oscilloscope.elf">
+				<Option output="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/F411Oscilloscope.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Core/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/Target"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 F411Oscilloscope.elf"/>
+					<CompileFile command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F411Oscilloscope.elf/fast">
+				<Option output="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/F411Oscilloscope.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Core/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/Target"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\armgnu\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 F411Oscilloscope.elf/fast"/>
+					<CompileFile command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS64/mingw64/bin/mingw32-make.exe -f &quot;E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/adc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/dma.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/gpio.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/main.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/spi.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/stm32f4xx_it.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/tim.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Inc/usart.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/adc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/dma.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/gpio.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/main.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/spi.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/stm32f4xx_it.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/syscalls.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/sysmem.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/system_stm32f4xx.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/tim.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Src/usart.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Core/Startup/startup_stm32f411ceux.s">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/CMSIS/LICENSE.txt">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/Analog.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/Buffer.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/Exti.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/GFX_FUNCTIONS.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/GPIO.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/I2C.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/PWM.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/ST7735.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/Serial.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/Timer.hpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/fonts.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Inc/mixplus.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Src/GFX_FUNCTIONS.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Src/ST7735.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Src/fonts.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/Mixplus/Src/mixplus.cpp">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/STM32F411CEUX_FLASH.ld">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App/usb_device.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App/usb_device.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App/usbd_desc.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/App/usbd_desc.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="F411Oscilloscope.elf"/>
+		</Unit>
+		<Unit filename="E:/Creatives/STM32/F411Oscilloscope/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

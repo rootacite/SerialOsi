@@ -1,0 +1,5 @@
+"E:\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/MSYS64/mingw64/bin/mingw32-make.exe "-DCMAKE_C_COMPILER=E:/ArmGNU/10 2021.10/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=E:/ArmGNU/10 2021.10/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" -S E:\Creatives\STM32\F411Oscilloscope -B E:\Creatives\STM32\F411Oscilloscope\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Creatives/STM32/F411Oscilloscope/cmake-build-debug
